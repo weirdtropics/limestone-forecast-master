@@ -1,0 +1,252 @@
+
+body {
+  background-image: url('images-background/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Catamaran', sans-serif;
+}
+
+
+/*HEADER*/
+
+.main-header {
+  margin: auto;
+  padding: 30px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+button {
+  background: #000;
+  color: #ec0063;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 100px;
+  height: 40px;
+  outline: none;
+}
+
+button:hover {
+  background: #212121;
+  color: #00ffe8;
+}
+
+.location-name {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  padding: 0 40px;
+  font-weight: 400;
+  font-size: 35px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/*DROP-DOWN*/
+
+
+
+.city-name a {
+  text-decoration: none;
+  margin: 30px auto;
+}
+
+.drop-down-list-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  margin: 0 auto 10px auto;
+}
+.plus-symbol {
+  font-size: 40px;
+  color: #00ffe8;
+  margin-top: 10px;
+}
+
+.dropdown-button {
+  display: inline-block;
+}
+
+.current {
+  font-size: 15px;
+  color: #000;
+  padding: 5px;
+}
+
+.current-location-link a, .add-city-link a {
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  color: white;
+  text-decoration: none;
+  cursor: auto;
+}
+
+/*SETTINGS*/
+
+.settings-menu {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0 10px 0;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  max-width: 400px;
+  height: 20%;
+  color: #fec227;
+  background-color: #141414;
+  opacity: 0.8;
+}
+
+.settings-button {
+  display: inline-block;
+}
+
+/*FORM ELEMENTS*/
+
+
+
+.add-city-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 5px auto 40px auto;
+}
+
+.pinned-cities-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.add-city-button {
+  margin: 15px auto;
+  text-align: center;
+  display: block;
+}
+
+.settings-city-list {
+  margin: 20px auto;
+}
+
+.pinned-city-name {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.pinned-city-name a {
+  margin: 3px 5px;
+  height: 20px;
+  padding: 3px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.delete-button {
+  width: 20px;
+  height: 20px;
+  margin: 2px 5px 0 5px;
+  border-radius: 5px;
+}
+
+/*INPUT FIELD*/
+
+.input-city-field {
+  margin: 15px auto;
+  text-align: center;
+  display: block;
+  width: 200px;
+  height: 20px;
+  padding: 3px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #141414;
+  outline: none;
+  border-color: #8c8c8c;
+}
+
+input[type=text] {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #00ffe8;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #00ffe8;
+}
+
+
+/*CURRENT WEATHER*/
+
+.weather-card {
+  margin: 0 auto 20px auto;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  max-width: 400px;
+  height: 20%;
+  color: #fec227;
+  background-color: #141414;
+  opacity: 0.8;
+}
+
+.summary-data {
+  color: #fec227;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.day-of-the-week {
+  color: #00ffe8;
+}
+
+.span {
+  color: #fff;
+}
+
+/*//__*/
+
+h2 {
+  font-size: 26px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.today-at-time {
+  color: #ec0063;
+}
+
+.extended, .fullday {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.extended-button, .fullday-button {
+  width: 200px;
+}
+
+.extended-button {
+  margin-bottom: 20px;
+}

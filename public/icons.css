@@ -1,0 +1,30 @@
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px auto;
+}
+
+.snow, .light-snow {
+  background: url('icons/snow.svg');
+}
+.storm {
+  background: url('icons/storm.svg');
+}
+.rain, .light-rain, .moderate-rain {
+  background: url('icons/rain.svg');
+}
+.thunderstorm {
+  background: url('icons/thunderstorm.svg');
+}
+.wind {
+  background: url('icons/wind.svg');
+}
+.dust {
+  background: url('icons/dust.svg');
+}
+.clear-sky {
+  background: url('icons/sun.svg');
+}
+.broken-clouds, .scattered-clouds, .overcast-clouds, .few-clouds {
+  background: url('icons/cloud.svg');
+}
